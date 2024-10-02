@@ -1,0 +1,16 @@
+C:\Users\Admin\source\repos\CsGeoFormsForms\CsGeoFormsForms\bin\Debug\net8.0-windows\CsGeoFormsForms.exe
+C:\Users\Admin\source\repos\CsGeoFormsForms\CsGeoFormsForms\bin\Debug\net8.0-windows\CsGeoFormsForms.deps.json
+C:\Users\Admin\source\repos\CsGeoFormsForms\CsGeoFormsForms\bin\Debug\net8.0-windows\CsGeoFormsForms.runtimeconfig.json
+C:\Users\Admin\source\repos\CsGeoFormsForms\CsGeoFormsForms\bin\Debug\net8.0-windows\CsGeoFormsForms.dll
+C:\Users\Admin\source\repos\CsGeoFormsForms\CsGeoFormsForms\bin\Debug\net8.0-windows\CsGeoFormsForms.pdb
+C:\Users\Admin\source\repos\CsGeoFormsForms\CsGeoFormsForms\obj\Debug\net8.0-windows\CsGeoFormsForms.Form1.resources
+C:\Users\Admin\source\repos\CsGeoFormsForms\CsGeoFormsForms\obj\Debug\net8.0-windows\CsGeoFormsForms.csproj.GenerateResource.cache
+C:\Users\Admin\source\repos\CsGeoFormsForms\CsGeoFormsForms\obj\Debug\net8.0-windows\CsGeoFormsForms.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Admin\source\repos\CsGeoFormsForms\CsGeoFormsForms\obj\Debug\net8.0-windows\CsGeoFormsForms.AssemblyInfoInputs.cache
+C:\Users\Admin\source\repos\CsGeoFormsForms\CsGeoFormsForms\obj\Debug\net8.0-windows\CsGeoFormsForms.AssemblyInfo.cs
+C:\Users\Admin\source\repos\CsGeoFormsForms\CsGeoFormsForms\obj\Debug\net8.0-windows\CsGeoFormsForms.csproj.CoreCompileInputs.cache
+C:\Users\Admin\source\repos\CsGeoFormsForms\CsGeoFormsForms\obj\Debug\net8.0-windows\CsGeoFormsForms.dll
+C:\Users\Admin\source\repos\CsGeoFormsForms\CsGeoFormsForms\obj\Debug\net8.0-windows\refint\CsGeoFormsForms.dll
+C:\Users\Admin\source\repos\CsGeoFormsForms\CsGeoFormsForms\obj\Debug\net8.0-windows\CsGeoFormsForms.pdb
+C:\Users\Admin\source\repos\CsGeoFormsForms\CsGeoFormsForms\obj\Debug\net8.0-windows\CsGeoFormsForms.genruntimeconfig.cache
+C:\Users\Admin\source\repos\CsGeoFormsForms\CsGeoFormsForms\obj\Debug\net8.0-windows\ref\CsGeoFormsForms.dll
