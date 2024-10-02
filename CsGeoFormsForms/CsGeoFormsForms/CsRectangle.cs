@@ -15,7 +15,7 @@ namespace CsGeoFormsForms
 
         }
         */
-        public void Draw(Graphics aGraphics)
+        public override void Draw(Graphics aGraphics)
         {
             if (Size.Width < 0)
             {

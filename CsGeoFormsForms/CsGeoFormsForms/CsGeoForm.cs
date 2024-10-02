@@ -23,6 +23,6 @@ namespace CsGeoFormsForms
         protected Size Size = new(width, height);
         protected Color color = color;
 
-        public void Draw() { }
+        public virtual void Draw(Graphics agraphics) { }
     }
 }

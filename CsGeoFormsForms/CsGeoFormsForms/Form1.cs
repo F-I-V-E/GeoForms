@@ -3,9 +3,7 @@ namespace CsGeoFormsForms
     public partial class Form1 : Form
     {
         Point coordinates;
-        List<CsEllipse> csEllipses = [];
-        List<CsRectangle> csRects = [];
-        List<CsLine> csLines = [];
+        List<CsGeoForm> forms = [];
         bool firstLaunch = true;
 
         public Form1()
@@ -15,16 +13,10 @@ namespace CsGeoFormsForms
 
         private void updateCanvas()
         {
-            using (Graphics gfx = pbx_Canvas.CreateGraphics())
-            {
-                gfx.Clear(Color.White);
-                foreach (CsLine line in csLines)
-                { line.Draw(gfx); }
-                foreach (CsEllipse c in csEllipses)
-                { c.Draw(gfx); }
-                foreach (CsRectangle r in csRects)
-                { r.Draw(gfx); }
-            }
+            using Graphics gfx = pbx_Canvas.CreateGraphics();
+            gfx.Clear(Color.White);
+            foreach (CsGeoForm f in forms)
+                f.Draw(gfx);
         }
 
         private void pbx_Canvas_Click(object sender, EventArgs e)
@@ -46,8 +38,8 @@ namespace CsGeoFormsForms
                         case 0:
                             using (Graphics gfx = pbx_Canvas.CreateGraphics())
                             {
-                                csRects.Add(
-                                    new(coordinates.X,
+                                forms.Add(
+                                    new CsRectangle(coordinates.X,
                                     coordinates.Y,
                                     coordinates2.X - coordinates.X,
                                     coordinates2.Y - coordinates.Y,
@@ -58,8 +50,8 @@ namespace CsGeoFormsForms
                         case 1:
                             using (Graphics gfx = pbx_Canvas.CreateGraphics())
                             {
-                                csEllipses.Add(
-                                    new(coordinates.X,
+                                forms.Add(
+                                    new CsEllipse(coordinates.X,
                                     coordinates.Y,
                                     coordinates2.X - coordinates.X,
                                     coordinates2.Y - coordinates.Y,
@@ -70,8 +62,8 @@ namespace CsGeoFormsForms
                         case 2:
                             using (Graphics gfx = pbx_Canvas.CreateGraphics())
                             {
-                                csLines.Add(
-                                    new(coordinates.X,
+                                forms.Add(
+                                    new CsLine(coordinates.X,
                                     coordinates.Y,
                                     coordinates2.X - coordinates.X,
                                     coordinates2.Y - coordinates.Y,
@@ -97,12 +89,8 @@ namespace CsGeoFormsForms
         {
             Graphics gfx = e.Graphics;
             gfx.Clear(Color.White);
-            foreach (CsLine line in csLines)
-                line.Draw(gfx);
-            foreach (CsEllipse c in csEllipses)
-                c.Draw(gfx);
-            foreach (CsRectangle r in csRects)
-                r.Draw(gfx);
+            foreach (CsGeoForm f in forms)
+                f.Draw(gfx);
         }
     }
 }

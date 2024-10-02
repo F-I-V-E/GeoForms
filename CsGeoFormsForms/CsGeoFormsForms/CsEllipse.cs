@@ -14,7 +14,7 @@ namespace CsGeoFormsForms
 
         }
         */
-        public void Draw(Graphics aGraphics)
+        public override void Draw(Graphics aGraphics)
         {
             aGraphics.DrawEllipse(new Pen(color), new Rectangle(Position, Size));
         }
