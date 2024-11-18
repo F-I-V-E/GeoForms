@@ -4,7 +4,6 @@ namespace CsGeoFormsForms
     {
         Point coordinates;
         List<CsGeoForm> forms = [];
-        bool firstLaunch = true;
 
         public Form1()
         {

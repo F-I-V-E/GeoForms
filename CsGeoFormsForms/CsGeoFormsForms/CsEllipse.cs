@@ -9,14 +9,9 @@ namespace CsGeoFormsForms
 {
     class CsEllipse(int positionX, int positionY, int width, int height, Color color) : CsGeoForm(positionX, positionY, width, height, color)
     {
-        /*public override void Draw(Graphics aGraphics)
-        {
-
-        }
-        */
         public override void Draw(Graphics aGraphics)
         {
-            aGraphics.DrawEllipse(new Pen(color), new Rectangle(Position, Size));
+            aGraphics.DrawEllipse(new Pen(color), new Rectangle(position, size));
         }
     }
 }

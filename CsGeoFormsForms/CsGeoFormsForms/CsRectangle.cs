@@ -7,27 +7,37 @@ using System.Threading.Tasks;
 
 namespace CsGeoFormsForms
 {
-    class CsRectangle(int positionX, int positionY, int width, int height, Color color) : CsGeoForm(positionX, positionY, width, height, color) 
+    class CsRectangle : CsGeoForm
     {
-        /*
-        public override void Draw(Graphics aGraphics)
+        public CsRectangle(int positionX, int positionY, int width, int height, Color color) : base(color)
         {
-
+            if (width < 0)
+            {
+                positionX += width;
+                width = -width;
+            }
+            if (height < 0)
+            {
+                positionY += height;
+                height = -height;
+            }
+            size = new Size(width, height);
+            position = new Point(positionX, positionY);
         }
-        */
+
         public override void Draw(Graphics aGraphics)
         {
-            if (Size.Width < 0)
+            if (size.Width < 0)
             {
-                Position.X += Size.Width;
-                Size.Width = Math.Abs(Size.Width);
+                position.X += size.Width;
+                size.Width = Math.Abs(size.Width);
             }
-            if (Size.Height < 0)
+            if (size.Height < 0)
             {
-                Position.Y += Size.Height;
-                Size.Height = Math.Abs(Size.Height);
+                position.Y += size.Height;
+                size.Height = Math.Abs(size.Height);
             }
-            aGraphics.DrawRectangle(new Pen(color), new Rectangle(Position, Size));
+            aGraphics.DrawRectangle(new Pen(borderColor), new Rectangle(position, size));
         }
     }
 }

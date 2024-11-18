@@ -7,22 +7,19 @@ using System.Threading.Tasks;
 
 namespace CsGeoFormsForms
 {
-    /*
-    abstract class CsGeoForm(int positionX, int positionY, int width, int height, Color color)
+    class CsGeoForm
     {
-        protected Point Position = new(positionX, positionY);
-        protected Size Size = new(width, height);
-        protected Color color = color;
+        protected Point position;
+        protected Size size;
+        protected Color borderColor;
+        public CsGeoForm(int positionX, int positionY, int width, int height, Color color)
+        {
+            position = new(positionX, positionY);
+            size = new(width, height);
+            borderColor = color;
+        }
 
-        public virtual void Draw(Graphics aGraphics) { }
-    }
-    */
-    class CsGeoForm(int positionX, int positionY, int width, int height, Color color)
-    {
-        protected Point Position = new(positionX, positionY);
-        protected Size Size = new(width, height);
-        protected Color color = color;
-
+        public CsGeoForm(Color borderColor) => this.borderColor = borderColor;
         public virtual void Draw(Graphics agraphics) { }
     }
 }

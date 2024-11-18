@@ -9,15 +9,9 @@ namespace CsGeoFormsForms
 {
     class CsLine(int positionX, int positionY, int width, int height, Color color) : CsGeoForm(positionX, positionY, width, height, color)
     {
-        /*
-        public override void Draw(Graphics aGraphics)
-        { 
-
-        }
-        */
         public override void Draw(Graphics aGraphics)
         {
-            aGraphics.DrawLine(new Pen(color), Position, Point.Add(Position, Size));
+            aGraphics.DrawLine(new Pen(color), position, Point.Add(position, size));
         }
     }
 }
