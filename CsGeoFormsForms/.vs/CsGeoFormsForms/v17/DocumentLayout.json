@@ -3,28 +3,28 @@
   "WorkspaceRootPath": "C:\\Users\\Admin\\source\\repos\\CsGeoFormsForms\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{E7F64C69-6542-48D2-B788-E3296342D1D1}|CsGeoFormsForms\\CsGeoFormsForms.csproj|c:\\users\\admin\\source\\repos\\csgeoformsforms\\csgeoformsforms\\csgeoform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E7F64C69-6542-48D2-B788-E3296342D1D1}|CsGeoFormsForms\\CsGeoFormsForms.csproj|solutionrelative:csgeoformsforms\\csgeoform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{E7F64C69-6542-48D2-B788-E3296342D1D1}|CsGeoFormsForms\\CsGeoFormsForms.csproj|c:\\users\\admin\\source\\repos\\csgeoformsforms\\csgeoformsforms\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E7F64C69-6542-48D2-B788-E3296342D1D1}|CsGeoFormsForms\\CsGeoFormsForms.csproj|solutionrelative:csgeoformsforms\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E7F64C69-6542-48D2-B788-E3296342D1D1}|CsGeoFormsForms\\CsGeoFormsForms.csproj|c:\\users\\admin\\source\\repos\\csgeoformsforms\\csgeoformsforms\\csellipse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E7F64C69-6542-48D2-B788-E3296342D1D1}|CsGeoFormsForms\\CsGeoFormsForms.csproj|solutionrelative:csgeoformsforms\\csellipse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E7F64C69-6542-48D2-B788-E3296342D1D1}|CsGeoFormsForms\\CsGeoFormsForms.csproj|c:\\users\\admin\\source\\repos\\csgeoformsforms\\csgeoformsforms\\csrectangle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E7F64C69-6542-48D2-B788-E3296342D1D1}|CsGeoFormsForms\\CsGeoFormsForms.csproj|solutionrelative:csgeoformsforms\\csrectangle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E7F64C69-6542-48D2-B788-E3296342D1D1}|CsGeoFormsForms\\CsGeoFormsForms.csproj|c:\\users\\admin\\source\\repos\\csgeoformsforms\\csgeoformsforms\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E7F64C69-6542-48D2-B788-E3296342D1D1}|CsGeoFormsForms\\CsGeoFormsForms.csproj|solutionrelative:csgeoformsforms\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E7F64C69-6542-48D2-B788-E3296342D1D1}|CsGeoFormsForms\\CsGeoFormsForms.csproj|c:\\users\\admin\\source\\repos\\csgeoformsforms\\csgeoformsforms\\csline.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E7F64C69-6542-48D2-B788-E3296342D1D1}|CsGeoFormsForms\\CsGeoFormsForms.csproj|solutionrelative:csgeoformsforms\\csline.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E7F64C69-6542-48D2-B788-E3296342D1D1}|CsGeoFormsForms\\CsGeoFormsForms.csproj|c:\\users\\admin\\source\\repos\\csgeoformsforms\\csgeoformsforms\\csgeoform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E7F64C69-6542-48D2-B788-E3296342D1D1}|CsGeoFormsForms\\CsGeoFormsForms.csproj|solutionrelative:csgeoformsforms\\csgeoform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E7F64C69-6542-48D2-B788-E3296342D1D1}|CsGeoFormsForms\\CsGeoFormsForms.csproj|c:\\users\\admin\\source\\repos\\csgeoformsforms\\csgeoformsforms\\csrectangle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E7F64C69-6542-48D2-B788-E3296342D1D1}|CsGeoFormsForms\\CsGeoFormsForms.csproj|solutionrelative:csgeoformsforms\\csrectangle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E7F64C69-6542-48D2-B788-E3296342D1D1}|CsGeoFormsForms\\CsGeoFormsForms.csproj|c:\\users\\admin\\source\\repos\\csgeoformsforms\\csgeoformsforms\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E7F64C69-6542-48D2-B788-E3296342D1D1}|CsGeoFormsForms\\CsGeoFormsForms.csproj|solutionrelative:csgeoformsforms\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E7F64C69-6542-48D2-B788-E3296342D1D1}|CsGeoFormsForms\\CsGeoFormsForms.csproj|c:\\users\\admin\\source\\repos\\csgeoformsforms\\csgeoformsforms\\csellipse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E7F64C69-6542-48D2-B788-E3296342D1D1}|CsGeoFormsForms\\CsGeoFormsForms.csproj|solutionrelative:csgeoformsforms\\csellipse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E7F64C69-6542-48D2-B788-E3296342D1D1}|CsGeoFormsForms\\CsGeoFormsForms.csproj|C:\\Users\\Admin\\source\\repos\\CsGeoFormsForms\\csgeoformsforms\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
@@ -38,11 +38,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 2,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\CsGeoFormsForms\\CsGeoFormsForms\\Program.cs",
               "RelativeDocumentMoniker": "CsGeoFormsForms\\Program.cs",
@@ -50,24 +50,25 @@
               "RelativeToolTip": "CsGeoFormsForms\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-01T08:16:51.563Z"
+              "WhenOpened": "2024-10-01T08:16:51.563Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Form1.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\CsGeoFormsForms\\CsGeoFormsForms\\Form1.cs",
               "RelativeDocumentMoniker": "CsGeoFormsForms\\Form1.cs",
               "ToolTip": "C:\\Users\\Admin\\source\\repos\\CsGeoFormsForms\\CsGeoFormsForms\\Form1.cs",
               "RelativeToolTip": "CsGeoFormsForms\\Form1.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEQAAABEAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEMAAABDAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-30T10:34:32.751Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 5,
               "Title": "CsEllipse.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\CsGeoFormsForms\\CsGeoFormsForms\\CsEllipse.cs",
               "RelativeDocumentMoniker": "CsGeoFormsForms\\CsEllipse.cs",
@@ -80,7 +81,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "CsRectangle.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\CsGeoFormsForms\\CsGeoFormsForms\\CsRectangle.cs",
               "RelativeDocumentMoniker": "CsGeoFormsForms\\CsRectangle.cs",
@@ -93,13 +94,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 0,
               "Title": "CsGeoForm.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\CsGeoFormsForms\\CsGeoFormsForms\\CsGeoForm.cs",
               "RelativeDocumentMoniker": "CsGeoFormsForms\\CsGeoForm.cs",
               "ToolTip": "C:\\Users\\Admin\\source\\repos\\CsGeoFormsForms\\CsGeoFormsForms\\CsGeoForm.cs",
               "RelativeToolTip": "CsGeoFormsForms\\CsGeoForm.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAUwAgAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAUwBYAAAA2AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-30T10:21:58.907Z",
               "EditorCaption": ""

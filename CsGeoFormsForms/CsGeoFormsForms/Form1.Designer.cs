@@ -41,8 +41,8 @@
             pbx_Canvas.Size = new Size(649, 453);
             pbx_Canvas.TabIndex = 0;
             pbx_Canvas.TabStop = false;
-            pbx_Canvas.Click += pbx_Canvas_Click;
-            pbx_Canvas.Paint += pbx_Canvas_Paint;
+            pbx_Canvas.Click += Pbx_Canvas_Click;
+            pbx_Canvas.Paint += Pbx_Canvas_Paint;
             // 
             // cmb_Shape
             // 

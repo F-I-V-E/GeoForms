@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace CsGeoFormsForms
 {
-    class CsGeoForm
+    abstract class CsGeoForm
     {
         protected Point position;
         protected Size size;
@@ -20,6 +20,6 @@ namespace CsGeoFormsForms
         }
 
         public CsGeoForm(Color borderColor) => this.borderColor = borderColor;
-        public virtual void Draw(Graphics agraphics) { }
+        public abstract void Draw(Graphics agraphics);
     }
 }

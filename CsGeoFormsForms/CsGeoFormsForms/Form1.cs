@@ -10,7 +10,7 @@ namespace CsGeoFormsForms
             InitializeComponent();
         }
 
-        private void updateCanvas()
+        private void UpdateCanvas()
         {
             using Graphics gfx = pbx_Canvas.CreateGraphics();
             gfx.Clear(Color.White);
@@ -18,7 +18,7 @@ namespace CsGeoFormsForms
                 f.Draw(gfx);
         }
 
-        private void pbx_Canvas_Click(object sender, EventArgs e)
+        private void Pbx_Canvas_Click(object sender, EventArgs e)
         {
             MouseEventArgs me = (MouseEventArgs)e;
 
@@ -80,11 +80,11 @@ namespace CsGeoFormsForms
                 {
                     MessageBox.Show("No Color selected");
                 }
-                updateCanvas();
+                UpdateCanvas();
             }
         }
 
-        private void pbx_Canvas_Paint(object sender, PaintEventArgs e)
+        private void Pbx_Canvas_Paint(object sender, PaintEventArgs e)
         {
             Graphics gfx = e.Graphics;
             gfx.Clear(Color.White);
