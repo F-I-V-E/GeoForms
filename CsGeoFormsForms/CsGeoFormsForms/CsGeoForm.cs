@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace CsGeoFormsForms
 {
-    abstract class CsGeoForm : IMovable
+    abstract class CsGeoForm //:IMovable
     {
         protected Point position;
         protected Size size;
@@ -22,15 +22,15 @@ namespace CsGeoFormsForms
         public CsGeoForm(Color borderColor) => this.borderColor = borderColor;
         public abstract void Draw(Graphics agraphics);
 
-        public void MoveRelative(int aDistanceX, int aDistanceY)
-        {
-            position.X += aDistanceX;
-            position.Y += aDistanceY;
-        }
+        //public void MoveRelative(int aDistanceX, int aDistanceY)
+        //{
+        //    position.X += aDistanceX;
+        //    position.Y += aDistanceY;
+        //}
 
-        public void MoveAbsolute(Point aPosition)
-        {
-            position = aPosition;
-        }
+        //public void MoveAbsolute(Point aPosition)
+        //{
+        //    position = aPosition;
+        //}
     }
 }
